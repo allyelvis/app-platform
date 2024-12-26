@@ -10,5 +10,4 @@ WORKDIR /app
 COPY app-maker/frontend/app-builder /app/frontend
 RUN npm install
 RUN npm run build
-
 CMD ["bash"]
